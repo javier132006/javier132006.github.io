@@ -21,6 +21,8 @@ HTML, CSS y JavaScript, sin frameworks ni dependencias. No hay backend ni base d
 index.html   contenido de la web (en español, con la traducción al inglés en atributos data-en)
 styles.css   estilos, colores y modo oscuro
 script.js    cambio de idioma y de tema
+cv/          currículum en PDF
+favicon.svg, apple-touch-icon.png, og-image.png   icono y vista previa al compartir el enlace
 ```
 
 ## Ejecutarla en local
@@ -46,5 +48,4 @@ Se publica con GitHub Pages desde la rama `main`: en el repositorio, *Settings �
 ## Pendiente
 
 - Sustituir `cv/CV-Javier-Mantoan.pdf` por la versión corregida del currículum y añadir una versión en inglés.
-- Imagen para la vista previa al compartir el enlace y favicon.
 - Foto personal (opcional).
