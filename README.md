@@ -45,6 +45,6 @@ Se publica con GitHub Pages desde la rama `main`: en el repositorio, *Settings �
 
 ## Pendiente
 
-- Añadir el PDF del currículum y activar el botón de descarga.
+- Sustituir `cv/CV-Javier-Mantoan.pdf` por la versión corregida del currículum y añadir una versión en inglés.
 - Imagen para la vista previa al compartir el enlace y favicon.
 - Foto personal (opcional).
