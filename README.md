@@ -8,6 +8,7 @@ Web personal con mi portfolio y currículum digital. Estoy buscando prácticas o
 
 - Presentación, formación y trayectoria.
 - Proyecto destacado: servicio de reporting de un simulador de cadena de suministro con microservicios (prácticas en GFT).
+- Otros proyectos: JSBach (scripts de red en Bash, proyecto de clase) y Wolf Toss (juego 2D en Unity).
 - Tecnologías organizadas por categoría y nivel de uso.
 - Versión en español e inglés, con modo claro y oscuro.
 

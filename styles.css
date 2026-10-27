@@ -340,6 +340,27 @@ h1 {
 .where { color: var(--muted); font-size: 0.97rem; margin-top: 3px; }
 .where a { color: var(--accent); text-underline-offset: 4px; }
 
+/* Otros proyectos */
+.projects > .more-h { margin-top: clamp(48px, 7vw, 80px); }
+.minis { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.mini {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(22px, 3.4vw, 32px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.mini .chips { margin-bottom: 0; }
+.mini h3 { font-family: var(--serif); font-weight: 600; font-size: 1.7rem; line-height: 1.1; letter-spacing: -0.015em; }
+.mini-sub { margin-top: -8px; color: var(--accent); font-weight: 500; }
+.mini .tags { margin-top: auto; }
+.mini .tags li { background: var(--bg); }
+.mini .repo { margin-top: 2px; }
+.private-note { font: 400 0.82rem var(--mono); color: var(--muted); border-top: 1px dashed var(--line); padding-top: 14px; }
+.tech-grid .tech-cat:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
 /* Contacto */
 .site-foot { border-top: 1px solid var(--line); padding-block: clamp(40px, 6vw, 72px); }
 .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 28px 48px; }
@@ -364,6 +385,7 @@ h1 {
 /* Responsive */
 @media (max-width: 900px) {
   .about { grid-template-columns: 1fr; }
+  .minis { grid-template-columns: 1fr; }
   .tech-grid { grid-template-columns: 1fr; }
   .timeline li { grid-template-columns: 1fr; row-gap: 2px; }
   .card { grid-template-columns: 1fr; }
